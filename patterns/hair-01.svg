@@ -1,0 +1,46 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
+  <defs>
+    <style>
+      .cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10}
+    </style>
+    <clipPath id="clip-path">
+      <path fill="none" d="M0 0h200v200H0z"/>
+    </clipPath>
+    <symbol id="curve-1" data-name="curve-1" viewBox="0 0 29.1 31">
+      <path class="cls-2" d="M1.6 18.5c-.2-.6-2.9-7.6 1-13 4.8-6.6 16.2-6 19-2 2 3-1.6 6.4-1 13 .6 6 4.5 10.8 8 14"/>
+    </symbol>
+    <symbol id="curve-4" data-name="curve-4" viewBox="0 0 22.8 19">
+      <path class="cls-2" d="M1.6 18.5c-.2-.6-2.9-7.6 1-13 4.8-6.6 16.2-6 19-2 2 3-1.6 6.4-1 13"/>
+    </symbol>
+    <symbol id="curve-2" data-name="curve-2" viewBox="0 0 38.3 29.7">
+      <path class="cls-2" d="M.8 16.1C-.6 9.5 3.1 3 8.8 1.1s12.2.9 14 5c2.5 5.8-5.9 11.7-3 18a9.4 9.4 0 0 0 7 5c4.1.6 8.5-1.7 11-6"/>
+    </symbol>
+    <symbol id="curve-5" data-name="curve-5" viewBox="0 0 33 54.2">
+      <path class="cls-2" d="M.5.7c15-1 19.5 2.2 21 5 3.8 7.2-9 16.7-7 29 1.6 9.3 11 15.5 18 19"/>
+    </symbol>
+    <symbol id="curve-3" data-name="curve-3" viewBox="0 0 31 13.1">
+      <path class="cls-2" d="M.5 11.5c3.3-9 6-11 8-11 4.6 0 6.3 11 13 12 3.5.5 6.7-1.9 9-4"/>
+    </symbol>
+  </defs>
+  <g clip-path="url(#clip-path)">
+    <use width="29.1" height="31" transform="translate(5.9 4)" xlink:href="#curve-1"/>
+    <use width="22.8" height="19" transform="translate(103.9 69)" xlink:href="#curve-4"/>
+    <use width="38.3" height="29.7" transform="matrix(1.5 0 0 1.5 54.7 134.4)" xlink:href="#curve-2"/>
+    <use width="33" height="54.2" transform="translate(47 26.8)" xlink:href="#curve-5"/>
+    <path class="cls-2" d="M53.4 106.4c.7-.4 8.4-4.6 19.3-.9a30.5 30.5 0 0 1 14.2 10.1"/>
+    <use width="31" height="13.1" transform="translate(21 62)" xlink:href="#curve-3"/>
+    <use width="31" height="13.1" transform="rotate(55.4 48.2 91.7) scale(1.52)" xlink:href="#curve-3"/>
+    <use width="33" height="54.2" transform="translate(13 100.8)" xlink:href="#curve-5"/>
+    <use width="33" height="54.2" transform="rotate(13.1 -124.5 634)" xlink:href="#curve-5"/>
+    <use width="29.1" height="31" transform="matrix(1.85 .25 -.25 1.85 116 106.6)" xlink:href="#curve-1"/>
+    <use width="31" height="13.1" transform="matrix(2.11 .85 -.73 1.81 23.6 162.6)" xlink:href="#curve-3"/>
+    <path class="cls-2" d="M169.2 22.2c1.2-.2 14.4-1.3 20.4 6.6 4.8 6.5 1.5 14.3.8 15.8M187.2 71.4c.6-.3 7-3.6 13.6-.2A15 15 0 0 1 208 80"/>
+    <use width="33" height="54.2" transform="matrix(-.7 .71 .71 .7 134.7 169.2)" xlink:href="#curve-5"/>
+    <use width="31" height="13.1" transform="matrix(2.11 .85 -.73 1.81 23.6 -37.5)" xlink:href="#curve-3"/>
+    <use width="33" height="54.2" transform="matrix(-.7 .71 .71 .7 134.7 -30.9)" xlink:href="#curve-5"/>
+    <use width="22.8" height="19" transform="matrix(1.49 .95 -.54 .84 180.8 113.4)" xlink:href="#curve-4"/>
+    <path class="cls-2" d="M-12.8 71.4c.6-.3 7-3.6 13.6-.2A15 15 0 0 1 8 80"/>
+    <use width="22.8" height="19" transform="matrix(1.49 .95 -.54 .84 -19.2 113.4)" xlink:href="#curve-4"/>
+    <use width="31" height="13.1" transform="rotate(-26.2 470.9 -256.7)" xlink:href="#curve-3"/>
+  </g>
+</svg>
