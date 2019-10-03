@@ -433,7 +433,7 @@
       <stop offset="0.99" stop-color="#fff" stop-opacity="0.04"/>
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="crowd-pattern" width="200" height="200" patternTransform="scale(2.46)" patternUnits="userSpaceOnUse" viewBox="0 0 200 200">
+    <pattern id="crowd-pattern" width="200" height="200" patternTransform="scale(2.45) translate(185, 45)" patternUnits="userSpaceOnUse" viewBox="0 0 200 200">
       <rect class="cls-1" width="199.2" height="199.44"/>
       <g class="pt-16">
         <use width="50.4" height="97.9" transform="translate(.7 -78.1)" xlink:href="#male-2"/>
@@ -465,10 +465,10 @@
         <use width="50.7" height="105.6" transform="translate(.2 192.6)" xlink:href="#female"/>
       </g>
     </pattern>
-    <linearGradient id="linear-gradient-3" x1="1349.09" y1="1998.54" x2="1475.62" y2="908.04" gradientUnits="userSpaceOnUse">
+    <linearGradient xmlns="http://www.w3.org/2000/svg" id="linear-gradient-3" x1="1349.09" y1="1998.54" x2="1475.62" y2="1000" gradientUnits="userSpaceOnUse">
       <stop offset="0"/>
-      <stop offset="0.7" stop-color="#3f3f3f" stop-opacity="0.75"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-opacity="0.75"/>
+      <stop offset="1" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="linear-gradient-4" x1="329.12" y1="971.91" x2="473.12" y2="971.91" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-opacity="0.6"/>
