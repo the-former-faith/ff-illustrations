@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" x="0" y="0" width="3200" height="1800" viewBox="0, 0, 3200, 1800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <style>
+    .window-pane {
+      stroke: rgb(209, 209, 209); 
+      stroke-width: 5; 
+      stroke-dasharray: 135, 135; 
+      stroke-dashoffset: 55;
+    }
+  </style>
+  <defs>
+    <filter id="shadow">
+      <feFlood flood-color="#000" flood-opacity="0.2" result="COLOR-red"/>
+      <feMorphology operator="dilate" radius="5" in="SourceAlpha" result="BEVEL_30"/>
+      <feComposite in="COLOR-red" in2="BEVEL_30" operator="in" result="BEVEL_40"/>
+      <feMerge result="BEVEL_50">
+        <feMergeNode in="BEVEL_40"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <bx:grid x="0" y="0" width="10" height="10"/>
+    <symbol id="symbol-0" viewBox="0 0 250 175" bx:pinned="true">
+      <title>Window</title>
+      <g id="Window" style="filter:url(#shadow);" transform="matrix(1, 0, 0, 1, -1033.2493896484375, -842.6209716796875)">
+        <path d="M 1056.224 842.621 L 1256.224 842.621 L 1256.224 992.621 L 1056.224 992.621 Z" stroke="#000000" stroke-width="2" style="fill: rgb(255, 255, 255);"/>
+        <g transform="matrix(1.234629, 0, 0, 1.115125, -257.247772, -76.974548)">
+          <path d="M1045.251,959.171 L1247.741,959.171 L1247.741,981.59 L1045.251,981.59 z" stroke="#000000" stroke-width="2" style="fill: rgb(174, 174, 174);"/>
+        </g>
+        <path d="M1045.311,971.011 L1246.68,971.011 L1246.68,981.09 L1045.311,981.09 z" fill="url(#Pattern_1)" id="Shape"/>
+        <rect class="window-pane" x="1069.858" y="857.739" width="80" height="55"/>
+        <rect class="window-pane" x="1161.68" y="857.739" width="80" height="55" style=""/>
+        <rect class="window-pane" x="1069.858" y="922.93" width="80" height="55" style=""/>
+        <rect class="window-pane" x="1161.68" y="922.93" width="80" height="55" style=""/>
+      </g>
+    </symbol>
+  </defs>
+  <g id="Background">
+    <path d="M0,2.275 L3200,2.275 L3200,1802.275 L0,1802.275 z" fill="#3A004A"/>
+  </g>
+  <g id="Building">
+    <g>
+      <path d="M387.833,763.941 L2845.157,763.941 L2845.157,1394.06 L387.833,1394.06 z" fill="#8500D2" style=""/>
+      <path d="M387.833,763.941 L2845.157,763.941 L2845.157,1394.06 L387.833,1394.06 z" fill-opacity="0" stroke="#000000" stroke-width="1" style=""/>
+    </g>
+    <g>
+      <path d="M343.799,738.683 L811.655,568.87 L2397.478,571.677 L2907.577,725.046 L343.799,738.683 z" fill="#46016E" style=""/>
+      <path d="M343.799,738.683 L811.655,568.87 L2397.478,571.677 L2907.577,725.046 L343.799,738.683 z" fill-opacity="0" stroke="#000000" stroke-width="1" style=""/>
+    </g>
+    <g>
+      <path d="M1381.052,541.974 L1877.058,541.974 L1877.058,568.87 L1381.052,568.87 z" fill="#46016E" style=""/>
+      <path d="M1381.052,541.974 L1877.058,541.974 L1877.058,568.87 L1381.052,568.87 z" fill-opacity="0" stroke="#000000" stroke-width="1" style=""/>
+    </g>
+    <g>
+      <path d="M1495.232,358.213 L1746.778,358.213 L1746.778,537.129 L1495.232,537.129 z" fill="#8500D2" style=""/>
+      <path d="M1495.232,358.213 L1746.778,358.213 L1746.778,537.129 L1495.232,537.129 z" fill-opacity="0" stroke="#000000" stroke-width="1" style=""/>
+    </g>
+    <g>
+      <path d="M1465.491,338.257 L1615.361,323.472 L1767.427,338.813 L1770.388,353.885 L1469.216,352.54 L1465.491,338.257 z" fill="#46016E" style=""/>
+      <path d="M1465.491,338.257 L1615.361,323.472 L1767.427,338.813 L1770.388,353.885 L1469.216,352.54 L1465.491,338.257 z" fill-opacity="0" stroke="#000000" stroke-width="1" style=""/>
+    </g>
+  </g>
+  <use width="250" height="175" transform="matrix(0.675445, 0, 0, 0.675445, 491.138733, 840)" xlink:href="#symbol-0"/>
+</svg>
