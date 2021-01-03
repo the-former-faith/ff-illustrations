@@ -684,14 +684,16 @@
         font-size:80px
       }
       @media (max-aspect-ratio:3/4) {
-
+        #foreground-people {
+          transform: translateX(-50%);
+        }
       }
     </style>
   </defs>
   <title>
     Dwight Moody Preaching in Tabernacle
   </title>
-  <g id="Foreground_People" class="cls-71">
+  <g id="foreground-people" class="cls-71">
     <path d="M1730 0h1114v785H1730z" class="cls-40"/>
     <path d="M2612 2v40h-604V2h604z" class="cls-73"/>
     <path d="M2384 782c44-11 83-76 74-131-14-92-93-102-92-177 0-51 5-82-6-111-13-34-92 9-193-39-62-29-66-31-99-26-41 6-40 38-103 106-42 43-71 6-101 43-69 84-27 272 26 289 23 6 17 23 32 32 31 20-2 31 31 85 38 64 204 88 262 24 49-54 43-67 83-84 37-16 35 2 86-11z" class="cls-74"/>
